@@ -4,7 +4,7 @@ source /etc/profile
 
 cd $(cd "$(dirname "$0")";pwd)
 
-curl --connect-timeout 60 -s -o white_domain_list.php https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/adlist-maker/scripts/lib/white_domain_list.php
+curl --connect-timeout 60 -s -o white_domain_list.php https://raw.githubusercontent.com/ydddj/dead-horse/master/scripts/white_domain_list.php
 
 php make-white-list.php
 
